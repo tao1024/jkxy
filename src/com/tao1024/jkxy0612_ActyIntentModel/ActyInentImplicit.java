@@ -2,6 +2,7 @@ package com.tao1024.jkxy0612_ActyIntentModel;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -37,7 +38,7 @@ public class ActyInentImplicit extends Activity {
 			@Override
 			public void onClick(View v) {
 				//约定俗成：包名.intent.action.类名
-				Intent intent = new Intent("com.tao1024.jkxy0612_ActyIntentModel.intent.action.ActyInentImplicitDest2");
+				Intent intent = new Intent("com.tao1024.jkxy0612_ActyIntentModel.intent.action.ActyInentImplicitDest",Uri.parse("app://hello"));
 				startActivity(intent);
 			}
 		});

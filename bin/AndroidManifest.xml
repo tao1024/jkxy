@@ -17,9 +17,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicit"
-            android:label="@string/app_name"
-            android:launchMode="singleTop" >
+            android:name="com.tao1024.jkxy0613_ActyService.ActyService"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,20 +44,35 @@
         <activity android:name="com.tao1024.jkxy0612_ActyStartModel.ActySingleTaskModel" />
         <activity android:name="com.tao1024.jkxy0612_ActyStartModel.ActySingleInstanceModel" />
         <activity android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentExplicit" />
-        <!-- <activity android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicit" /> -->
-        <activity android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicitDest" >
-        	<intent-filter>
-            	<category android:name="android.intent.category.DEFAULT"/>
-            	<action android:name="123456789"/>
-        	</intent-filter>
+        <activity android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicit" />
+        <activity
+            android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicitDest"
+            android:label="Dest1" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.tao1024.jkxy0612_ActyIntentModel.intent.action.ActyInentImplicitDest" />
+            </intent-filter>
         </activity>
-        <activity android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicitDest2" android:exported="false">
-        	<intent-filter>
-            	<category android:name="android.intent.category.DEFAULT"/>
-            	<action android:name="com.tao1024.jkxy0612_ActyIntentModel.intent.action.ActyInentImplicitDest2"/>
-        	</intent-filter>
+        <activity
+            android:name="com.tao1024.jkxy0612_ActyIntentModel.ActyInentImplicitDest2"
+            android:exported="false"
+            android:label="Dest2" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="com.tao1024.jkxy0612_ActyIntentModel.intent.action.ActyInentImplicitDest" />
+
+                <data android:scheme="app" />
+            </intent-filter>
         </activity>
-        
+        <!-- <activity android:name="com.tao1024.jkxy0613_ActyService.ActyService"/> -->
+        <service 
+            android:name="com.tao1024.jkxy0613_ActyService.MyService"
+            android:label="Myservice"
+            android:exported="true"
+            android:enabled="true">
+        </service>
     </application>
 
 </manifest>

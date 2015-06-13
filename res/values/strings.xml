@@ -13,5 +13,6 @@
     <string name="title_activity_acty_pass_obj_ser">ActyPassObjSer</string>
     <string name="title_activity_acty_standard_model">ActyStandardModel</string>
     <string name="title_activity_acty_inent_implicit">ActyInentImplicit</string>
+    <string name="title_activity_acty_service">ActyService</string>
 
 </resources>

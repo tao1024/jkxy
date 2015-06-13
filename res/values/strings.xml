@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">jkxy0610_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_another">AnotherActivity</string>
+    <string name="title_activity_acty_start_uri">ActyStartUri</string>
+    <string name="title_activity_acty__start_acty">Acty_StartActy</string>
+    <string name="title_activity_acty__new_acty">Acty_NewActy</string>
+    <string name="title_activity_acty_pass_sim_value">ActyPassSimValue</string>
+    <string name="title_activity_acty_get_sim_value">ActyGetSimValue</string>
+    <string name="title_activity_acty_pass_obj_ser">ActyPassObjSer</string>
+    <string name="title_activity_acty_standard_model">ActyStandardModel</string>
+    <string name="title_activity_acty_inent_implicit">ActyInentImplicit</string>
+
+</resources>

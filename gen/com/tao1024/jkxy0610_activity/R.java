@@ -25,20 +25,22 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000d;
+        public static final int action_settings=0x7f08000f;
         public static final int btnBack=0x7f080004;
-        public static final int btnPassBundle1=0x7f080006;
-        public static final int btnPassBundle2=0x7f080007;
-        public static final int btnPassObjSer=0x7f080008;
-        public static final int btnPassSimValue=0x7f080009;
-        public static final int btnStandard=0x7f08000b;
+        public static final int btnPassBundle1=0x7f080008;
+        public static final int btnPassBundle2=0x7f080009;
+        public static final int btnPassObjSer=0x7f08000a;
+        public static final int btnPassSimValue=0x7f08000b;
+        public static final int btnStandard=0x7f08000d;
         public static final int btnStartActy=0x7f080000;
-        public static final int btnStartUri=0x7f08000c;
+        public static final int btnStartActy2=0x7f080006;
+        public static final int btnStartActy3=0x7f080007;
+        public static final int btnStartUri=0x7f08000e;
         public static final int edtInput=0x7f080003;
         public static final int tvGetBundle=0x7f080002;
         public static final int tvGetSimValue=0x7f080005;
         public static final int tvResult=0x7f080001;
-        public static final int tvStandard=0x7f08000a;
+        public static final int tvStandard=0x7f08000c;
     }
     public static final class layout {
         public static final int acty_for_result=0x7f030000;
@@ -46,13 +48,14 @@ public final class R {
         public static final int acty_get_result=0x7f030002;
         public static final int acty_get_sim_value=0x7f030003;
         public static final int acty_inent_implicit=0x7f030004;
-        public static final int acty_new_acty=0x7f030005;
-        public static final int acty_pass_bundle=0x7f030006;
-        public static final int acty_pass_obj_ser=0x7f030007;
-        public static final int acty_pass_sim_value=0x7f030008;
-        public static final int acty_standard_model=0x7f030009;
-        public static final int acty_start_acty=0x7f03000a;
-        public static final int acty_start_uri=0x7f03000b;
+        public static final int acty_inent_implicit_dest=0x7f030005;
+        public static final int acty_new_acty=0x7f030006;
+        public static final int acty_pass_bundle=0x7f030007;
+        public static final int acty_pass_obj_ser=0x7f030008;
+        public static final int acty_pass_sim_value=0x7f030009;
+        public static final int acty_standard_model=0x7f03000a;
+        public static final int acty_start_acty=0x7f03000b;
+        public static final int acty_start_uri=0x7f03000c;
     }
     public static final class menu {
         public static final int acty__new_acty=0x7f070000;
